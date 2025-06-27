@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/idade.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/idade", "dest": "api/idade.js" }
-  ]
-}
